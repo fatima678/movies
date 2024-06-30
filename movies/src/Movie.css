@@ -1,0 +1,63 @@
+.movie {
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.2s ease;
+  }
+   
+  .movie:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+.watch-now-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2f5986; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: px; 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.App{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  
+ }
+  .movie-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+  }
+  
+  .movie-title {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .movie-release-year {
+    font-size: 18px;
+    color: #777;
+  }
+  
+h1{
+    text-align: center;
+    width: 100%;
+}
+  .movies-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
